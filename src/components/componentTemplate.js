@@ -1,34 +1,35 @@
 import React, { Component } from 'react';
-import {object} from "./ObjectTemplate";
+import {Adecco} from "./ObjectTemplate";
 //------------------------------------------------D3-------------------------------------------------------------
 //let Chart = require('react-d3-components').PieChart;
 
 //---------------------------------------------Constants---------------------------------------------------------
-const url = "http://amund-bench-api.herokuapp.com/positions/getbycompanyname?companyName=Adecco";
-
 class ComponentTemplate extends Component {
 
     //First
     constructor(props){
         console.log("Function: constructor");
-
         super(props);
         this.state = {
-        }
+            adecco: []
+        };
     }
 
     //-----------------------------------------Flow Control------------------------------------------------------
+
     //Second
     async componentWillMount() {
         console.log("Function: componentWillMount");
-        let object = new Object();
-        console.log("Before poluation: " + object);
-
-
+        this.setState({
+            adecco: await new Adecco()
+        });
+        console.log(this.state.adecco);
     }
+
     //Fourth
     componentDidMount() {
         console.log("Function: componentDidMount");
+
     }
 
     componentWillUnmount() {
@@ -56,20 +57,14 @@ class ComponentTemplate extends Component {
 
     shouldComponentUpdate(nextProps, nextState, nextContext) {
         console.log("Function: shouldComponentUpdate");
+        return true;
     }
 
     //-----------------------------------------------------------------------------------------------------------
 
-    fetchData(url){
-        console.log("Function: fetchData");
-        fetch(url)
-            .then(res => res.json())
-    }
-
     //Third
     render() {
         console.log("Function: render");
-        this.fetchData(url);
         return (
             <div>
 

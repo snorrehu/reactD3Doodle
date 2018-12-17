@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styling/App.css';
-import D3ComponentTemplate from './components/d3ComponentTemplate';
+//import D3ComponentTemplate from './components/d3ComponentTemplate';
 import ComponentTemplate from './components/componentTemplate'
 
 class App extends Component {
