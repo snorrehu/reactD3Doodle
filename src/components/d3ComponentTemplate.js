@@ -7,7 +7,7 @@ import * as d3 from 'd3';
 //---------------------------------------------Constants---------------------------------------------------------
 const RD3Component = rd3.Component;
 
-let node = document.createElement('div');
+let node = document.createElement('svg');
 
 let svg = d3.select(node);
 svg.append('rect')
@@ -35,6 +35,7 @@ class D3ComponentTemplate extends Component {
     //Second
     componentWillMount() {
         console.log("d3ComponentTemplate - function: componentWillMount");
+        console.log(node);
         this.setState({
             d3: node
         })
@@ -42,7 +43,6 @@ class D3ComponentTemplate extends Component {
     //Fourth
     componentDidMount() {
         console.log("d3ComponentTemplate - function: componentDidMount");
-        console.log(this.state.d3)
     }
 
     componentWillUnmount() {
@@ -81,7 +81,6 @@ class D3ComponentTemplate extends Component {
             <div>
                 <RD3Component data={this.state.d3}/>
             </div>
-
         );
     }
 }
