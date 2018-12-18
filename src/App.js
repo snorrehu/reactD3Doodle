@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './styling/App.css';
-import D3ChartComponentTemplate from './components/D3ChartComponentTemplate';
-import ComponentTemplate from './components/componentTemplate'
+import D3ChartComponentTemplate from './templates/D3ChartComponentTemplate';
+import ComponentTemplate from './templates/componentTemplate'
+import SimpleLineChart from './d3/SimpleLineChart/SimpleLineChart';
 
 class App extends Component {
     componentDidMount() {
@@ -11,7 +12,7 @@ class App extends Component {
       console.log("App - function: render()");
     return (
         <div className="center-div">
-            <D3ChartComponentTemplate/>
+            <SimpleLineChart/>
         </div>
 
     );

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45a0e7c7-b061-43e5-be3e-02eca867d76f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/D3ChartComponentTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/componentTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/componentTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/D3ChartComponentTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/D3ChartComponentTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ObjectTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/ObjectTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/componentTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/componentTemplate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,30 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/componentTemplate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="n#!!block;n#componentDidMount#0;n#ComponentTemplate#0" />
-                <element signature="n#!!block;n#componentWillUnmount#0;n#ComponentTemplate#0" />
-                <element signature="n#!!block;n#componentDidCatch#0;n#ComponentTemplate#0" />
-                <element signature="n#!!block;n#componentDidUpdate#0;n#ComponentTemplate#0" />
-                <element signature="n#!!block;n#componentWillReceiveProps#0;n#ComponentTemplate#0" />
-                <element signature="n#!!block;n#componentWillUpdate#0;n#ComponentTemplate#0" />
-                <element signature="n#!!block;n#shouldComponentUpdate#0;n#ComponentTemplate#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/D3ChartComponentTemplate.js">
+        <entry file="file://$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="194">
+              <caret line="71" column="72" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -48,13 +32,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styling/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -64,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -82,8 +84,11 @@
       <find>befo</find>
       <find>test</find>
       <find>d3com</find>
-      <find>scale</find>
       <find>var</find>
+      <find>scale</find>
+      <find>time</find>
+      <find>rangeB</find>
+      <find>height</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -111,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/d3/test.js" />
         <option value="$PROJECT_DIR$/src/d3/d3Template.js" />
         <option value="$PROJECT_DIR$/src/components/d3Template.js" />
-        <option value="$PROJECT_DIR$/src/styling/App.css" />
         <option value="$PROJECT_DIR$/src/components/d3Template.css" />
         <option value="$PROJECT_DIR$/src/components/test.js" />
         <option value="$PROJECT_DIR$/src/components/BubbleChart.js" />
@@ -128,7 +132,14 @@
         <option value="$PROJECT_DIR$/src/components/componentTemplate.js" />
         <option value="$PROJECT_DIR$/src/components/BarChart.js" />
         <option value="$PROJECT_DIR$/src/components/D3ChartComponentTemplate.js" />
+        <option value="$PROJECT_DIR$/src/d3/SimpleBarChart.jsx" />
+        <option value="$PROJECT_DIR$/src/d3/simple_bar_chart/bar-data.csv" />
+        <option value="$PROJECT_DIR$/src/d3/simple_bar_chart/SimpleBarChart.css" />
+        <option value="$PROJECT_DIR$/src/d3/simple_bar_chart/SimpleBarChart.jsx" />
+        <option value="$PROJECT_DIR$/src/styling/App.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.css" />
+        <option value="$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.jsx" />
       </list>
     </option>
   </component>
@@ -160,7 +171,26 @@
               <item name="react_d3_doodle" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_d3_doodle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="d3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_d3_doodle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_d3_doodle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d3" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleLineChart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_d3_doodle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_d3_doodle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_d3_doodle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_d3_doodle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545147089134" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545160905942" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -185,10 +215,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shukke\IdeaProjects\react_d3_doodle\src\d3\simple_bar_chart" />
+      <recent name="C:\Users\shukke\IdeaProjects\react_d3_doodle\src\templates" />
       <recent name="C:\Users\shukke\IdeaProjects\react_d3_doodle\src\components" />
       <recent name="C:\Users\shukke\IdeaProjects\react_d3_doodle\src\styling" />
       <recent name="C:\Users\shukke\IdeaProjects\react_d3_doodle\src" />
-      <recent name="C:\Users\shukke\IdeaProjects\react_d3_doodle\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,12 +251,12 @@
       <updated>1544618000713</updated>
       <workItem from="1544618004724" duration="25329000" />
       <workItem from="1545031382377" duration="23332000" />
-      <workItem from="1545117760702" duration="25269000" />
+      <workItem from="1545117760702" duration="30519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73930000" />
+    <option name="totallyTimeSpent" value="79180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -330,20 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styling/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -389,14 +406,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ObjectTemplate.js">
+    <entry file="file://$PROJECT_DIR$/src/templates/ObjectTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/componentTemplate.js">
+    <entry file="file://$PROJECT_DIR$/src/templates/componentTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -413,20 +430,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/d3/simple_bar_chart/SimpleBarChart.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d3/simple_bar_chart/SimpleBarChart.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d3/simple_bar_chart/bar-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/D3ChartComponentTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="21" column="26" lean-forward="true" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styling/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/D3ChartComponentTemplate.js">
+    <entry file="file://$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d3/SimpleLineChart/SimpleLineChart.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="71" column="72" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
