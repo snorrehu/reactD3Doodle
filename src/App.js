@@ -5,9 +5,10 @@ import ComponentTemplate from './components/componentTemplate'
 
 class App extends Component {
   render() {
+      console.log("App - function: render()");
     return (
         <div className="center-div">
-          <ComponentTemplate/>
+            <ComponentTemplate/>
         </div>
 
     );
@@ -15,3 +16,4 @@ class App extends Component {
 }
 
 export default App;
+

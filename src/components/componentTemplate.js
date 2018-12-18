@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Adecco} from "./ObjectTemplate";
+import {MyObject} from "./ObjectTemplate";
 //------------------------------------------------D3-------------------------------------------------------------
 //let Chart = require('react-d3-components').PieChart;
 
@@ -11,7 +11,7 @@ class ComponentTemplate extends Component {
         console.log("Function: constructor");
         super(props);
         this.state = {
-            adecco: []
+            json: []
         };
     }
 
@@ -21,9 +21,8 @@ class ComponentTemplate extends Component {
     async componentWillMount() {
         console.log("Function: componentWillMount");
         this.setState({
-            adecco: await new Adecco()
+            json: await new MyObject()
         });
-        console.log(this.state.adecco);
     }
 
     //Fourth
@@ -43,7 +42,7 @@ class ComponentTemplate extends Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         console.log("Function: componentDidUpdate");
-
+        console.log(this.state.json);
     }
 
     componentWillReceiveProps(nextProps, nextContext) {
