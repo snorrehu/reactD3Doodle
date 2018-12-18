@@ -11,7 +11,7 @@ class ComponentTemplate extends Component {
         console.log("Function: constructor");
         super(props);
         this.state = {
-            json: []
+            jsonArray: []
         };
     }
 
@@ -21,7 +21,7 @@ class ComponentTemplate extends Component {
     async componentWillMount() {
         console.log("Function: componentWillMount");
         this.setState({
-            json: await new MyObject()
+            jsonArray: await new MyObject()
         });
     }
 
@@ -42,7 +42,7 @@ class ComponentTemplate extends Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         console.log("Function: componentDidUpdate");
-        console.log(this.state.json);
+        console.log(this.state.jsonArray);
     }
 
     componentWillReceiveProps(nextProps, nextContext) {

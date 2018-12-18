@@ -12,7 +12,7 @@ async function MyObject() {
             dataType: "JSON",
             headers: { "Accept": 'application/json',"Content-Type": "application/json; charset=utf-8"}})
 
-    ]);
+    ]).catch(err=>console.log(err));
 
     this.json1 = await this.results[0].json();
     this.json2 = await this.results[1].json();
