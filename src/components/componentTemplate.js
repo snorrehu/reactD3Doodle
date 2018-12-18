@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import {MyObject} from "./ObjectTemplate";
-//------------------------------------------------D3-------------------------------------------------------------
-//let Chart = require('react-d3-components').PieChart;
 
 //---------------------------------------------Constants---------------------------------------------------------
 class ComponentTemplate extends Component {
@@ -42,7 +40,6 @@ class ComponentTemplate extends Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         console.log("Function: componentDidUpdate");
-        console.log(this.state.jsonArray);
     }
 
     componentWillReceiveProps(nextProps, nextContext) {
@@ -66,7 +63,6 @@ class ComponentTemplate extends Component {
         console.log("Function: render");
         return (
             <div>
-
             </div>
         );
     }

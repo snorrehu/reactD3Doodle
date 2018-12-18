@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styling/App.css';
+import D3ChartComponentTemplate from './components/D3ChartComponentTemplate';
 import ComponentTemplate from './components/componentTemplate'
 
 class App extends Component {
@@ -10,9 +11,7 @@ class App extends Component {
       console.log("App - function: render()");
     return (
         <div className="center-div">
-            <svg>
-                <ComponentTemplate/>
-            </svg>
+            <D3ChartComponentTemplate/>
         </div>
 
     );
