@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
 import './styling/App.css';
-import D3ChartComponentTemplate from './templates/D3ChartComponentTemplate';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+//import D3ChartComponentTemplate from './templates/D3ChartComponentTemplate';
 import ComponentTemplate from './templates/componentTemplate'
 import SimpleLineChart from './d3/SimpleLineChart/SimpleLineChart';
+import NavBarTemplate from './templates/NavBarTemplate';
 
-class App extends Component {
-    componentDidMount() {
-        console.log("App - function: componentDidMount");
-    }
+export default class App extends Component {
+
   render() {
       console.log("App - function: render()");
     return (
-        <div className="center-div">
-            <SimpleLineChart/>
-        </div>
+        <Router>
+            <div>
+                <NavBarTemplate/>
+                <Route exact path="/plainComponent" component={ComponentTemplate}></Route>
+                <Route path="/simpleLineChart" component={SimpleLineChart}></Route>
+            </div>
+        </Router>
 
     );
   }
-}
 
-export default App;
+};
 

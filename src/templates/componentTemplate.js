@@ -63,6 +63,7 @@ class ComponentTemplate extends Component {
         console.log("Function: render");
         return (
             <div>
+                Hello World!
             </div>
         );
     }

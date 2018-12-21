@@ -32,9 +32,9 @@ class SimpleLineChart extends Component {
         const line = d3.line()
             .x(function(d, i) { return xScale(i); }) // set the x values for the line generator
             .y(function(d) { return yScale(d.y); }) // set the y values for the line generator
-            .curve(d3.curveMonotoneX) // apply smoothing to the line
+            .curve(d3.curveMonotoneX); // apply smoothing to the line
 
-        const dataset = d3.range(n).map(function(d) { return {"y": d3.randomUniform(1)() } })
+        const dataset = d3.range(n).map(function(d) { return {"y": d3.randomUniform(1)() } });
 
         const svg = d3.select(node).append("svg")
             .attr("width", width + margin.left + margin.right)
